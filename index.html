@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <h1 class="the">THE</h1>
+            <h1 class="heading">COTTON WORLD</h1>
+        </div>
+        <form class="search-form" id="searchForm">
+            <input class="search-btn" type="search" placeholder="Search for shirts, sarees and more" id="searchInput">
+            <button type="submit" class="search-icon-btn">
+                <span>&#128269;</span>
+            </button>
+        </form>
+        <nav class="nav-links">
+            <a href="https://jsdl.in/RSL-GUB1749458186" class="nav-btn" target="_blank">Location</a>
+            <a href="#" class="nav-btn" id="contact-btn">Contact Us</a>
+
+            <!-- Contact Us Modal -->
+            <div id="contact-modal" class="modal" style="display:none;">
+                <div class="modal-content">
+                    <span class="close" id="close-contact-modal">&times;</span>
+                    <h2>Contact Us</h2>
+                    <p>For inquiries, assistance, or to visit our shop, feel free to reach out.</p>
+                    <p>📞 Contact Number: +914422271749</p>
+                    <p>🕙 Business Hours: 10:00 AM – 10:00 PM</p>
+                    <p>📍 Visit Us: [THE COTTON WORLD Camp Road , Tambaram , chennai
+                        ]</p>
+                    <p>We’re here to serve you and look forward to welcoming you soon!</p>
+                </div>
+            </div>
+
+            <div class="more-menu">
+                <button type="button" class="more-btn">&#8942;</button>
+                <div class="dropdown-content">
+                    <a href="#">Profile</a>
+                    <a href="#">Login</a>
+                    <a href="#">Orders</a>
+                    <a href="#">Exit</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="image-row" id="main-images">
+        <div class="image-box">
+            <img src="mens.jpg" alt="Mens" class="popup-img" data-title="Mens">
+            <h2>Mens</h2>
+        </div>
+        <div class="image-box">
+            <img src="womans.jpg" alt="womans" class="popup-img" data-title="womans">
+            <h2>Womans</h2>
+        </div>
+        <div class="image-box">
+            <img src="kids.jpg" alt="kids" class="popup-img" data-title="kids">
+            <h2>kids</h2>
+        </div>
+        <div class="image-box">
+            <img src="accessories.jpg" alt="accessories" class="popup-img" data-title="accessories">
+            <h2>accessories</h2>
+        </div>
+        <div class="image-box">
+            <img src="innerformens.jpg" alt="innerformens" class="popup-img" data-title="innerformens">
+            <h2>innerformens</h2>
+        </div>
+        <div class="image-box">
+            <img src="innerforwomans.jpg" alt="innerforwomans" class="popup-img" data-title="innerforwomans">
+            <h2>innerforwomans</h2>
+        </div>
+        
+    </div>
+    <!-- CATEGORIES heading -->
+    <div class="categories-section">
+        <h1>CATEGORIES:</h1>
+    </div>
+
+    <!-- First row of categories images -->
+<div class="image-row" id="categories-images">
+    <div class="image-box">
+        <img src="sarees.jpg" alt="Sarees" class="popup-img" data-title="Sarees">
+        <h2>Sarees</h2>
+    </div>
+    <div class="image-box">
+        <img src="chudidhar.jpg" alt="chudidhar" class="popup-img" data-title="chudidhars">
+        <h2>chudidhars</h2>
+    </div>
+    <div class="image-box">
+        <img src="nighty.jpg" alt="nightie" class="popup-img" data-title="Nightie">
+        <h2>Nightie</h2>
+    </div>
+    <div class="image-box">
+        <img src="shirts.jpg" alt="Shirts" class="popup-img" data-title="Shirts">
+        <h2>Shirts</h2>
+    </div>
+    <div class="image-box">
+        <img src="tshirts.jpg" alt="T-Shirts" class="popup-img" data-title="T-Shirts">
+        <h2>T-Shirts</h2>
+    </div>
+    <div class="image-box">
+        <img src="jeans.jpg" alt="Jeans" class="popup-img" data-title="Jeans">
+        <h2>Jeans</h2>
+    </div>
+</div>
+
+<!-- Second row for Shorts and Pant -->
+<div class="image-row" id="categories-images">
+    <div class="image-box">
+        <img src="vesti.jpg" alt="Veshti" class="popup-img" data-title="Veshti">
+        <h2>Veshti</h2>
+    </div>
+    <div class="image-box">
+        <img src="veshti.jpg" alt="Lungi" class="popup-img" data-title="Lungi">
+        <h2>Lungi</h2>
+    </div>
+    <div class="image-box">
+        <img src="shorts.jpg" alt="Shorts" class="popup-img" data-title="Shorts">
+        <h2>Shorts</h2>
+    </div>
+    <div class="image-box">
+        <img src="pants.jpg" alt="Pant" class="popup-img" data-title="Pant">
+        <h2>Pant</h2>
+    </div>
+    <div class="image-box">
+        <img src="tracksuit.jpg" alt="tracksuit" class="popup-img" data-title="Tracksuit">
+        <h2>Tracksuit</h2>
+    </div>
+</div>
+<div id="img-popup-modal" class="modal" style="display:none;">
+  <div class="img-modal-content" id="gallery-modal-content">
+    <span class="close" id="close-img-modal">&times;</span>
+    <div id="gallery-images" style="display: flex; gap: 24px; justify-content: center; align-items: center;">
+      <!-- Gallery images will be inserted here -->
+    </div>
+  </div>
+</div>
+</body>
+</html>
